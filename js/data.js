@@ -191,6 +191,16 @@ window.SITE_DATA = {
       abilities: ["물의 팬던트", "행운 매듭 팔찌", "검술"],
     },
     {
+      id: "pordo-rage",
+      name: "포르도 (폭주)",
+      en: "PORDO · BERSERK",
+      role: "남주인공 · 폭주 형태",
+      faction: "",
+      tier: "EP09",
+      image: "assets/images/pordo-rage.webp",
+      desc: "9화, 3300번 방 보스의 공격으로 세리나가 큰 위기에 빠지자 폭주한 포르도의 모습. 두 눈이 붉게 타오르고, 검은 갑옷과 망토 위로 붉은 기운이 일렁입니다.",
+    },
+    {
       id: "serina",
       name: "세리나",
       en: "SERINA",
@@ -286,6 +296,16 @@ window.SITE_DATA = {
       desc: "다래와 초창기에 여행자로 함께했던 옛 친구. 다래의 고민을 들어주는 짧은 카메오 역할이며, 주인공 일행에 합류하거나 전투에 참여하지 않습니다.",
       abilities: [],
     },
+    {
+      id: "serina-mom",
+      name: "세리나의 엄마",
+      en: "SERINA'S MOTHER",
+      role: "현실 세계",
+      faction: "",
+      tier: "",
+      image: "assets/images/mom-serina.webp",
+      desc: "현실 세계에 있는 세리나의 엄마. 9화에서 3300번 방 보스가 이 모습으로 변신해 세리나 앞에 나타납니다.",
+    },
   ],
 
   // 몬스터 · 아이템 도감
@@ -317,6 +337,27 @@ window.SITE_DATA = {
       level: "설원 협곡 · 와이번형",
       image: "assets/images/beast-drake.webp",
       desc: "몸길이 약 5m, 날개폭 약 8m. 창백한 푸른빛 흰색 비늘과 서리를 두르고, 불이 아닌 눈보라 브레스(수속성 냉기)를 뿜습니다. 날개 두 개와 뒷다리 두 개를 가집니다.",
+    },
+    {
+      name: "3297번 방 보스",
+      en: "ROOM 3297 BOSS",
+      level: "3297번 방 보스 · EP06 등장",
+      image: "assets/images/boss-3297.webp",
+      desc: "검은 후드 속에서 붉은 눈빛만 새어 나오는 암살자. 양팔에 붉게 빛나는 칼날을 달고 있습니다. 관문홀에 남겨진 포르도·세리나·다래 세 사람이 힘겹게 쓰러뜨렸습니다.",
+    },
+    {
+      name: "3299번 방 보스",
+      en: "ROOM 3299 BOSS",
+      level: "3299번 방 보스 · EP09 등장",
+      image: "assets/images/boss-3299.webp",
+      desc: "녹슨 왕관을 쓰고 해진 검은 망토를 두른 해골 왕. 4대 길드장과 포르도·세리나·다래가 모두 힘을 합쳐서야 쓰러뜨릴 수 있었습니다.",
+    },
+    {
+      name: "3300번 방 보스",
+      en: "ROOM 3300 BOSS",
+      level: "3300번 방 보스 · EP09 등장",
+      image: "assets/images/boss-3300.webp",
+      desc: "닥터 제인의 명령을 따르던 인간형 AI 로봇과 꼭 닮은 안드로이드. 다른 사람의 모습으로 변신하고, 빠른 몸놀림으로 상대의 움직임을 미리 읽고 싸웁니다.",
     },
     {
       name: "인간형 AI 로봇",
